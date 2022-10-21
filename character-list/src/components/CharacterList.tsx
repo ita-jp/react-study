@@ -13,8 +13,7 @@ type Props = {
     characters: Character[];
 }
 
-const CharacterList: FC<Props> = (props) => {
-    const {school, characters} = props;
+const CharacterList: FC<Props> = ({school, characters}) => {
     return (
     <div>
         <Heading size="md" as="h2">{school}</Heading>
