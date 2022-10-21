@@ -9,14 +9,18 @@ const App: FC = () => {
     {
       id: 1,
       name: "磯野カツオ",
+      grade: 5,
+      height: 160
     },
     {
       id: 2,
-      name: "磯野ワカメ"
+      name: "磯野ワカメ",
+      grade: 4,
     },
     {
       id: 3,
-      name: "花沢さん"
+      name: "花沢さん",
+      grade: 5
     }
   ];
 
