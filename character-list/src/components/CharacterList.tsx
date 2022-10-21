@@ -24,7 +24,7 @@ const CharacterList: FC<Props> = ({school, characters}) => (
                     <Box textAlign="left" ml={3}>
                         <Text>{character.name}</Text>
                         <Text as="span">{character.grade}年生</Text>
-                        <Text as="span" ml={2}>{character.height ? character.height : '???'}cm</Text>
+                        <Text as="span" ml={2}>{character.height ?? '???'}cm</Text>
                     </Box>
                 </Flex>
             </ListItem>
