@@ -13,8 +13,7 @@ type Props = {
     characters: Character[];
 }
 
-const CharacterList: FC<Props> = ({school, characters}) => {
-    return (
+const CharacterList: FC<Props> = ({school, characters}) => (
     <div>
         <Heading size="md" as="h2">{school}</Heading>
         <List my={8}>
@@ -32,7 +31,6 @@ const CharacterList: FC<Props> = ({school, characters}) => {
             ))}
         </List>
     </div>
-    )
-}
+)
 
 export default CharacterList;
